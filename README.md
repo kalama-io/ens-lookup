@@ -2,7 +2,7 @@
 
 Components that provide [ens](https://ens.domains/about/) lookup functionality
 
-1. will listen to http requests locally (default: 127.0.0.1:38098) and return the query results, see [config.toml](https://github.com/glen0125/ens-lookup/blob/main/config.toml) for configuration, or pass in port via the Command line parameters passed into the port.
+1. Will listen to http requests locally (default: 127.0.0.1:38098) and return the query results, see [config.toml](https://github.com/glen0125/ens-lookup/blob/main/config.toml) for configuration, or pass in port via the Command line parameters passed into the port.
 
 2. The request is usually: http://127.0.0.1:38090/forward/{ensDomain}
 
