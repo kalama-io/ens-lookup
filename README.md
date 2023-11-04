@@ -4,7 +4,7 @@ Components that provide [ens](https://ens.domains/about/) lookup functionality
 
 1. Will listen to http requests locally (default: 127.0.0.1:38098) and return the query results, see [config.toml](https://github.com/glen0125/ens-lookup/blob/main/config.toml) for configuration, or pass in port via the Command line parameters passed into the port.
 
-2. The request is usually: http://127.0.0.1:38090/forward/{ensDomain}
+2. The request is usually: http://127.0.0.1:38098/forward/{ensDomain}
 
 3. Supports setting the provider via configuration file or dynamically querying the configuration service in the code.
 
